@@ -1,0 +1,14 @@
+# common
+
+.*
+!.*ignore
+!.*rc
+
+# dev
+
+node_modules/
+
+# generated
+
+*.log
+dist/
