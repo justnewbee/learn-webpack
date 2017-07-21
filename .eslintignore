@@ -1,0 +1,11 @@
+# common
+
+.*
+
+# dev
+
+node_modules/
+
+# generated
+
+dist/
