@@ -10,12 +10,12 @@ module.exports = {
     rules: [{
       test: /\.js$/,
       exclude: /node_modules/,
-      use: {
+      use: ["es3ify-loader", {
         loader: "babel-loader",
         options: {
           presets: ["env"]
         }
-      }
+      }]
     }]
   }
 };
