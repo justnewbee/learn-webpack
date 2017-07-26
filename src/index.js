@@ -1,3 +1,3 @@
-import component from "./component";
+import h1 from "./component/h1/";
 
-document.body.appendChild(component());
+document.body.appendChild(h1());

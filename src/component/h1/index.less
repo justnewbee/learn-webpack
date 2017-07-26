@@ -1,0 +1,11 @@
+#mixin {
+  .gradient-l2r(@from; @to) {
+    background-image: linear-gradient(to right, @from, @to);
+  }
+}
+
+.h1 {
+  color: fadeOut(#f00, 50);
+  flex: 1;
+  #mixin.gradient-l2r(#FF0; #FFF);
+}
