@@ -1,6 +1,6 @@
 {
   "name": "learn-webpack",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "index.js",
   "author": "jianchun wang <justnewbee@gmail.com>",
   "license": "MIT",
